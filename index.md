@@ -2,31 +2,34 @@
 
 ---
 
-### Category Name 1 
+### Applying R in Public Policy Analytics
 
-[Project 1 Title](/sample_page)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
-
----
-[Project 2 Title](/pdf/sample_presentation.pdf)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Santa Monica Spatiotemporal EMS Call Prediction](/project_markdowns/Siren-EMS-Demand-Prediction.html)
+- [video demonstration](https://youtu.be/RZF3mLuHx_w)
 
 ---
-[Project 3 Title](http://example.com/)
-<img src="images/dummy_thumbnail.jpg?raw=true"/>
+[Arrest Risk Prediction in Chicago, IL](/project_markdowns/Predictive-Policing.html)
 
 ---
+[Miami Home Sale Price Prediction](/project_markdowns/Miami-Prediction-Oct-12.html)
 
-### Category Name 2
+---
+[Home Repair Tax Credit Program](/project_markdowns/Home-repair-tax-credits.html)
 
-- [Project 1 Title](http://example.com/)
-- [Project 2 Title](http://example.com/)
-- [Project 3 Title](http://example.com/)
-- [Project 4 Title](http://example.com/)
-- [Project 5 Title](http://example.com/)
+---
+[Philadelphia Bike-share Project](/project_markdowns/bikeshare_BingchuChen.html)
+
+---
+[Boston Transit Oriented Development Policy Brief](/project_markdowns/boston_tod_policy.html)
 
 ---
 
+### Geospatial Cloud Computing
+
+[Tool for comparing POI data from SafeGraph and OpenStreetMap](https://github.com/BCCghspace/BingchuChen-EugeneChong-project)
+- [presentation](/presentation/MUSA_509_Final_Project.pdf)
+
+---
 
 
 
