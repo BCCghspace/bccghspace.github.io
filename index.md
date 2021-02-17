@@ -18,7 +18,7 @@
 
 ---
 [Philadelphia Bike-share Project](/project_markdowns/bikeshare_BingchuChen.html)
-
+<img src="project_markdowns/bikeshare_BingchuChen_files/figure-html/animate-1.gif?raw=true"/>
 ---
 [Boston Transit Oriented Development Policy Brief](/project_markdowns/boston_tod_policy.html)
 
