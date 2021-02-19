@@ -22,13 +22,14 @@
 
 ---    
 [Boston Transit Oriented Development Policy Brief](/project_markdowns/boston_tod_policy.html)    
-   
+
 ---
 
 ### Geospatial Cloud Computing
 
 [Tool for comparing POI data from SafeGraph and OpenStreetMap](https://github.com/BCCghspace/BingchuChen-EugeneChong-project)
 - [presentation](/presentation/MUSA_509_Final_Project.pdf)
+<img src="images/website.gif?raw=true"/>
 
 ---
 
