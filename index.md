@@ -8,16 +8,24 @@
 - [video demonstration](https://youtu.be/RZF3mLuHx_w)    
 <img src="images/ems1.jpg?raw=true"/>  
 <img src="images/ems2.jpg?raw=true"/>  
+
+
 ---
 [Arrest Risk Prediction in Chicago, IL](/project_markdowns/Predictive-Policing.html)   
 <img src="images/pre1.jpg?raw=true"/>  
+
+
 ---
 [Miami Home Sale Price Prediction](/project_markdowns/Miami-Prediction-Oct-12.html)   
 <img src="images/miami1.jpg?raw=true"/>   
 <img src="images/miami2.jpg?raw=true"/>   
+
+
 ---
 [Home Repair Tax Credit Program](/project_markdowns/Home-repair-tax-credits.html)   
 <img src="images/repair.jpg?raw=true"/>   
+
+
 ---
 [Philadelphia Bike-share Project](/project_markdowns/bikeshare_BingchuChen.html)   
 <img src="project_markdowns/bikeshare_BingchuChen_files/figure-html/animate-1.gif?raw=true"/>  
@@ -25,6 +33,8 @@
 ---    
 [Boston Transit Oriented Development Policy Brief](/project_markdowns/boston_tod_policy.html)      
 <img src="images/tod.jpg?raw=true"/>   
+
+
 ---
 
 ### Geospatial Cloud Computing
