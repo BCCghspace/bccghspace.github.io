@@ -2,6 +2,13 @@
 
 ---
 
+### Graduate Student City Planning Workshop
+<img src="images/businessmap.jpg?raw=true"/>
+<img src="images/jobcenters_citywide.jpg?raw=true"/>
+<img src="images/jobnumber_gel.jpg?raw=true"/> 
+
+---
+
 ### Applying R in Public Policy Analytics
 
 [Santa Monica Spatiotemporal EMS Call Prediction](/project_markdowns/Siren-EMS-Demand-Prediction.html)
