@@ -48,6 +48,13 @@
 
 ---
 
+### JavaScript Programming for Planners and Designers
+
+[UI Design for LA County Arts Education Profile]      
+<img src="images/ui_la_county.png?raw=true"/>   
+
+---
+
 
 
 ---
