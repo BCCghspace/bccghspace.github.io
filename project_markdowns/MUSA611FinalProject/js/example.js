@@ -55,7 +55,7 @@ var Stamen_TonerLite = L.tileLayer('http://stamen-tiles-{s}.a.ssl.fastly.net/ton
 
 ////////////////////////////////////////read in data
 
-$.ajax('https://raw.githubusercontent.com/BCCghspace/data/main/2018w44.json?token=AQ2OW56HXIWJ4LD6G3FMKALATK52C').done(function(data) {
+$.ajax('https://raw.githubusercontent.com/BCCghspace/data/main/2018w44.json?token=AQ2OW55RCWLAFPB3VUVAW2TAVVK5S').done(function(data) {
   bikeshare = JSON.parse(data);
   console.log(bikeshare)
   filterbikeshare = bikeshare
@@ -306,14 +306,15 @@ var createLineChart = function(stationName) {
 };
 //https://developer.mozilla.org/en-US/docs/Web/API/Web_Workers_API/Using_web_workers
 var updateLineChart = function(stationName){
-  linechart.data.datasets.data= datarec(stationName);
+  linechart.data.datasets[0].data= datarec(stationName);
+  console.log("updateline", datarec(stationName), linechart.data.datasets);
   linechart.data.labels = linelabel();
   linechart.update();
 }
 
 var createPieChart = function(stationName){
   var ctx = document.getElementById('myPieChart').getContext('2d');
-  var piechart = new Chart(ctx, {
+  piechart = new Chart(ctx, {
       type: 'doughnut',
       data: {
           labels: ['Indego30','Indego365', 'Day Pass', 'Walk In'],
@@ -360,8 +361,10 @@ var createPieChart = function(stationName){
 
 var updatePieChart = function(stationName){
   console.log(countStnPass)
-  document.getElementById('myPieChart').getContext('2d').clearRect(0, 0, document.getElementById('myPieChart').width, document.getElementById('myPieChart').height);
-  piechart.data.datasets.data= [fallBackZero(countStnPass[stationName].Indego30), fallBackZero(countStnPass[stationName].Indego365), fallBackZero(countStnPass[stationName].DayPass), fallBackZero(countStnPass[stationName].Walkin)]
+  // document.getElementById('myPieChart')
+  //         .getContext('2d')
+  //         .clearRect(0, 0, document.getElementById('myPieChart').width, document.getElementById('myPieChart').height);
+  piechart.data.datasets[0].data= [fallBackZero(countStnPass[stationName].Indego30), fallBackZero(countStnPass[stationName].Indego365), fallBackZero(countStnPass[stationName].DayPass), fallBackZero(countStnPass[stationName].Walkin)]
   piechart.update();
 }
 // $.when($.ajax(zipcodeURL), $.ajax(zipcodeVaccURL), $.ajax(zipcodePopURL)).then(function(zipcodeRes, zipcodeVaccRes, zipcodePopRes) {
