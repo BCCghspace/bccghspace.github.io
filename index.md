@@ -5,7 +5,7 @@
 ### JavaScript Project   
 
 [Bikeshare Stations Demand Visualization](/project_markdowns/MUSA611FinalProject/index.html)   
-
+<img src="images/website_screenshot.png?raw=true"/> 
 ---
 
 ### Graduate Student City Planning Workshop     
